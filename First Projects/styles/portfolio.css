@@ -1,0 +1,135 @@
+/* body{
+    background-color: bisque;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shared style */
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.color-orange{
+    color:#FD6E0A;
+}
+.btn{
+    background-color:#FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    font-weight: 100px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+
+/* main style */
+header{
+    background-color: #FFF8F3;
+    background: url("../images copy/developer.png"),url("../images copy/header_bg.png"),#FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    padding: 50px;
+}
+nav{
+    width: 68%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin:0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style-type:none;
+    gap: 51px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+#banner{
+    /* border: 1px solid red; */
+    margin: 46px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight:600px;
+    color:#474747 ;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    font-weight: 100px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+#banner .banner-image img{
+    max-width:585px;
+    vertical-align: middle;
+}
+
+#about {
+    padding-top: 131px;
+
+}
+#about .about-container{
+    width: 68%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info .info-card p{
+    font-size: 20px;
+    font-weight: 100px;
+    color: #757575;
+    line-height: 30px;
+}

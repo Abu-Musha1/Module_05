@@ -56,7 +56,7 @@ header{
     background-color: #FFF8F3;
     background: url("../images copy/developer.png"),url("../images copy/header_bg.png"),#FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
+    background-position: 23px 38px,bottom right;
     padding: 50px;
 }
 nav{
